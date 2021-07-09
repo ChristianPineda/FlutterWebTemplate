@@ -12,7 +12,7 @@ class Header extends StatefulWidget implements PreferredSizeWidget {
   @override
   _HeaderState createState() => _HeaderState();
 
-  Size get preferredSize => Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => Size.fromHeight(kToolbarHeight); //Tamaño del appbar
 }
 
 class _HeaderState extends State<Header> {

@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:ui/Values/ResponsiveApp.dart';
 
 class HeaderButton extends StatefulWidget {
-  String title;
-  int index;
-  bool lineIsVisible;
-
+  final String title;
+  final int index;
+  final bool lineIsVisible;
   HeaderButton(this.index,this.title,{this.lineIsVisible=true});
 
   @override
@@ -29,7 +28,6 @@ class _HeaderButtonState extends State<HeaderButton>   {
   @override
   Widget build(BuildContext context) {
     responsiveApp=ResponsiveApp(context);
-    // TODO: implement build
     return  InkWell(
       onHover: (value) {
         setState(() {
@@ -66,6 +64,4 @@ class _HeaderButtonState extends State<HeaderButton>   {
       ),
     );
   }
-
-
 }

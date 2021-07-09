@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
       builder: (context,child){
         responsiveApp=ResponsiveApp(context);
         return Theme(data: ThemeData(
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.cyan[300],
           primaryColor: Colors.black87,
           accentColor: Colors.blueGrey,
           iconTheme: IconThemeData(color: Colors.white),

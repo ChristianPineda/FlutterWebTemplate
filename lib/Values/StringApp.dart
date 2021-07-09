@@ -1,7 +1,7 @@
 
 //String Menu
 
-String get shopStr=> "PIN.CODE.ACADEMY";
+String get shopStr=> "PINCODE";
 String get coffeesStr=> "Capacitación en habilidades digitales";
 //Menu
 String get officeStr => "Ofimática";
@@ -36,6 +36,6 @@ String get facebookStr => "Facebook";
 String get instagramStr => "Instagram";
 
 //Datos default
-String get nameStr => "Christian Pineda <pincode>";
+String get nameStr => "Christian Pineda <@elpincode>";
 String get emailDefaultStr => "contacto@oslomx.tech";
 String get addressDefaultStr => "Estado de México";
