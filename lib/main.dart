@@ -2,7 +2,6 @@
 // Values tiene la configuración de responsive
 // Util tiene los datos de tamañanos de pantallas
 import 'package:flutter/material.dart';
-
 import 'Pages/HomePage.dart';
 import 'Values/ResponsiveApp.dart';
 

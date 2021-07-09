@@ -1,7 +1,7 @@
 
 //String Menu
 
-String get shopStr=> "PINCODE";
+String get shopStr=> "OSLOMX";
 String get coffeesStr=> "Capacitación en habilidades digitales";
 //Menu
 String get officeStr => "Ofimática";
